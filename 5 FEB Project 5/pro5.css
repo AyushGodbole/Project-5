@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAVIGATION BAR CSS */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    border: 1px solid black;
+    background-color: #000000;
+    padding: 7px 95px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 49px;
+    margin-right: 614px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    color: #ba0cc5;
+    /* font-weight: 900; */
+}
+.navbar .logo img{
+    height: 34px;
+    width: 95px;
+}
+.navbar .mainbtn button{
+    padding: 7px 20px;
+    font-weight: 600;
+    background-color: #ba0cc5;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+.navbar .mainbtn button:hover{
+    background-color: white;
+    color: #ba0cc5;
+    border: none;
+}
+
+.navbar .whiteline{
+    width: 1px;
+    height: 53px;
+    background-color: white;
+    /* margin-right: 687px; */
+}
+
+/* MAIN SECTION CSS */
+
+.mainsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 94vh;
+    text-align: center;
+}
+.mainsec .above h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    margin-top: 240px;
+}
+.mainsec .above p{
+   color: white;
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 58px;
+}
+.mainsec .largebutton{
+    margin-top: 36px;
+}
+.mainsec .largebutton button{
+    padding: 15px 20px;
+    font-weight: 600;
+    background-color: #ba0cc5;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.mainsec .largebutton button:hover{
+    background-color: white;
+    color: #ba0cc5;
+    border: none;
+}
+
